@@ -5,13 +5,11 @@
 //       t.innerHTML = (t.innerHTML | 0) + 1;
 //     }
 //   };
-// n2...
-// var bg = document.querySelector('.bg');
-// var colours = ["#CCCDFF", "#BAC7E8", "#D9EEFF", "#BADFE8"];
-// var index = 0;
-// function change() {
-//     if(index >= colours.length);
-//     bg.style.backgroundColor = colours[index++];
+// var colors = ['blue', 'yellow', 'green', 'red'];
+// var output;
+// function colorClicks (output) {
+//     for (i=0; i<colors.length; i++);
+//     output = i + colors[i];
 // }
 // n3
 //   function shuffle(array) {
