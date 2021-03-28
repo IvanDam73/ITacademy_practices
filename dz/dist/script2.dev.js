@@ -1,22 +1,14 @@
-//n1. - боролся, как лев, но не осилил :(
-//  var a = [2, 3, 5];
+//n1. 
+// var a = [2, 3, 5];
 // var b = [2, 3, 5];
 // var c = [2, 2, 3, 3, 5, 6];
 // var d = [1, 2, 3];
-// var chache;
-// var aaa = a.length;
-//     bbb = b.length;
-//     ccc = c.length;
-//     ddd = d.length;
-// for (var i = 0; i < aaa; ++i){
-// cache = a[i];
-//   for (var j = 0; j < ddd; ++j){
-//     if (cache == d[j]){
-//     console.log('найдено совпадение: ' + cache);
-//     break;
-//     }
-//   }
-// }
+// var intersection = a.filter(x => b.includes(x));
+// var intersection1 = a.filter(x => c.includes(x));
+// var intersection2 = a.filter(x => d.includes(x));
+// console.log(intersection);
+// console.log(intersection1);
+// console.log(intersection2);
 // n2.
 // var myArray1 = [55, 77, 66];
 // var myArray2 = [55, 11, 15, 77, 66, 99, 100, 110];
@@ -57,12 +49,23 @@
 // console.log(minimal);
 // var maximal = Math.max (x, x1, x2, x3, x4, x5, x6);
 // console.log(maximal);
-// n7. - боролся как мог, но не осилил :(
+// n7.
 // var myArray5 = [23, 52, 1, 75, 89, 3];
+// var mapped = myArray5.map(x => Math.pow(x, 2));
+// mapped.sort((a, b) => b - a);
+// console.log(mapped);
 // var finalaccum = myArray5.reduce(function(sum, current) {
 //     return sum + current;
 //   }, 0); 
 // console.log(finalaccum);
+// var result = myArray5.filter(function(elem) {
+// 	if (elem % 2 == 0) {
+// 		return true;
+// 	} else {
+// 		return false;
+// 	}
+// });
+// console.log(result);
 // n8.
 // var itObj = {js:['jQuery', 'Angular'], php:'hello', css: 'world'};
 // console.log(itObj.js[0]);
