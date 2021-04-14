@@ -63,24 +63,42 @@
 // console.log(n);
 
 // n5
+// "use.strict";
 // class User {
-//    constructor(Vasya, Petrov, year) {
-//        this.name = Vasya;
-//        this.surname = Petrov;
-//        this.year = 2012;
-//    }
-// }
-
-// class Student {
-//     getFullName(){
-//         Student.call( this.name + '' + this.surname);
+//     constructor(name, surname, year, admission) {
+//        this.name = name;
+//        this.surname = surname;
+//        this.year = year;
+//        this.admission = admission;
+       
 //     }
 
-//     getCourse() {
-//         let thatyear = 2017;
-//         Student.call(thatyear - this.year);
+//     getFullName(){    
+//         console.log(this.name + this.surname);
+        
 //     }
     
 // }
+// const User1 = new User ('Name', 'Surname', 'year', 'admission');
+// console.log(User1);
+// User1.getFullName();
 
-// const User1 = new User ();
+
+// class Student extends User {
+//     getFullName() {
+//         super.getFullName();
+//     }
+
+//     getCourse() {
+//         this.admission =2012;
+//         this.year = 2017;
+//         console.log([this.year - this.admission]);
+//     }
+// }
+// const Student1 = new Student ('Vasya', 'Petrov', 2017, 2012);
+// console.log(Student1);
+// Student1.getFullName();
+// Student1.getCourse();
+
+
+
