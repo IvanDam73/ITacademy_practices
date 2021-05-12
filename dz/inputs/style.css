@@ -1,0 +1,50 @@
+button {
+    width: 70px;
+    height: 40px;
+    color: white;
+}
+
+
+input {
+    margin-top: 10px;
+    border: black solid 2px;
+}
+
+.myDiv{
+    height: 60px;
+    width: 200px;
+}
+
+.button1 {
+   background-color: black;
+}
+
+.button2 {
+    background-color: red;
+}
+
+.button3 {
+    background-color: rgb(221, 221, 91);
+}
+
+.button4 {
+    background-color: rgb(23, 193, 216);
+}
+
+.button5 {
+    background-color: rgb(228, 131, 147);
+}
+
+.newDiv {
+margin-top: 15px;
+}
+
+.myBtn {
+    margin: 10px;
+    background-color: rgb(110, 216, 75);
+}
+
+.myInput1, .myInput2 {
+    margin: 5px;
+    width: 50px;
+}
